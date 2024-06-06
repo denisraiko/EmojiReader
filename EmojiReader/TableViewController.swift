@@ -13,6 +13,8 @@ class TableViewController: UITableViewController {
                    Emoji(emoji: "⚽️", name: "Football", description: "Play football", isFavourite: false),
                    Emoji(emoji: "🐶", name: "Dog", description: "Dog is the cutest animal", isFavourite: false)]
     
+    // MARK: lifecycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
